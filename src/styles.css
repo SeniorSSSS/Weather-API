@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* To give color to the body*/
+body {
+  background-color: rgb(26, 88, 133);
+}
+
+/* Css for the main section containing everthing */
+.WeatherAPIContainer {
+  border: 7px dashed rgb(8, 170, 191);
+  border-radius: 25px;
+  background-color: rgb(25, 200, 124);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* to style h1 */
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+/* 
+to style the search area  */
+.SearchArea {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+}
+
+.LocationSearchBarContainer {
+  background-color: cadetblue;
+}
+
+.TemperatureButtonContainer {
+  background-color: cadetblue;
+}
+
+.TemperatureButtonContainer button {
+  background-color: indigo;
+  color: white;
+  margin-left: 5px;
+}
+
+input[type="text"] {
+    background-color: #c0fbe5;
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 
+button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  } */
+
+/* <div class="LocationSearchBarContainer">
+          <label>Search Location:</label><br>
+          <input type="text" id="myText"><br>
+          <button type="button" id="myButton">submit</button>
+        </div> */
+
+
